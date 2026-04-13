@@ -1,0 +1,7 @@
+User-agent: Twitterbot
+Allow: /
+
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://4mbjam.dev/sitemap.xml
