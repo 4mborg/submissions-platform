@@ -67,5 +67,5 @@ app.get("/", (req, res) =>
 // listen on the configured port
 app.listen(PORT, () =>
 {
-    console.log(`Server listening on port ${PORT}`)
+    console.log(`Server listening on port ${PORT}${IS_PRODUCTION ? " in production" : ""}.`)
 });
